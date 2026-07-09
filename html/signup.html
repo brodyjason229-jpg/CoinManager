@@ -31,21 +31,26 @@
         <h1>Create Account</h1>
         <p>Create yout Coin Manager Account </p>
 
-        <form>
+        <form id="signupForm">
 
             <div class="input-box">
                 <i class="fa-solid fa-envelope"></i>
-                <input type="text" placeholder="Full Name">
+                <input type="text" id="fullname" placeholder="Full Name">
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" placeholder="Enter your full email">
             </div>
 
             <div class="input-box">
                 <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Enter your password">
+                <input type="password" id="password" placeholder="Enter your password">
             </div>
 
             <div class="input-box">
                 <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Confirm Password">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password">
             </div>
 
             <button type="submit">
@@ -62,6 +67,9 @@
     </div>
 
 </div>
+
+<script type="module" src="../js/auth.js"></script>
+
 </body>
 
 </html>
