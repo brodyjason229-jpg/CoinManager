@@ -1,0 +1,28 @@
+:root{
+
+    /* Colors */
+
+    --primary:#7C3AED;
+    --background:#0F172A;
+    --card:#1E293B;
+    --border:#334155;
+
+    --text:#F8FAFC;
+    --text-light:#94A3B8;
+
+    --green:#22C55E;
+    --red:#EF4444;
+    --yellow:#F59E0B;
+
+    /* Font */
+
+    --font:'Poppins',sans-serif;
+
+    /* Radius */
+
+    --radius:18px;
+
+    /* Transition */
+
+    --transition:0.3s ease;
+}
